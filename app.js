@@ -17,26 +17,19 @@ function randChoice(arr){
 const people = [];
 
 for (let i = 0; i < 20; i++) {
-
-    const newObject = {}
-
-    const gender = randChoice(genders);
-
-    if (gender === 'Male'){
-        newObject.name = randChoice(maleNames);
-    } else if (gender === 'Female'){
-        newObject.name = randChoice(femaleNames);
-    }  
-
     
-    newObject.lastName = lastNames[Math.floor(Math.random() * lastNames.length)];
-    const lastNameToLowerCase = newObject.lastName.toLowerCase();
 
-    const age = Math.floor(Math.random() * (78 - 18 + 1)) + 18;
-    newObject.age = age;
-
-    const nameToLowerCase = newObject.name.toLowerCase();
-    newObject.email = nameToLowerCase + '.' + lastNameToLowerCase + '@gmail.com';
+    const newObject = {
+        gender: randChoice(genders),
+        name: randChoice( this.gender === 'Male' ? maleNames : femaleNames),
+        lastName: randChoice(lastNames),
+        age: Math.floor(Math.random() * (78 - 18 + 1)) + 18,
+        email: '',
+    }
+    
+    const emailName = newObject.name.toLowerCase();
+    const lastName = newObject.lastName.toLowerCase();
+    newObject.email = `${emailName}.${lastName}@gmail.com`;
 
     people.push(newObject);
 }

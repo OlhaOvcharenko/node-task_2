@@ -1,0 +1,142 @@
+[
+  {
+    "gender": "Female",
+    "name": "Ann",
+    "lastName": "Davis",
+    "age": 33,
+    "email": "ann.davis@gmail.com"
+  },
+  {
+    "gender": "Male",
+    "name": "Zuza",
+    "lastName": "Clarc",
+    "age": 46,
+    "email": "zuza.clarc@gmail.com"
+  },
+  {
+    "gender": "Female",
+    "name": "Ann",
+    "lastName": "Clarc",
+    "age": 37,
+    "email": "ann.clarc@gmail.com"
+  },
+  {
+    "gender": "Male",
+    "name": "Lusy",
+    "lastName": "Davis",
+    "age": 57,
+    "email": "lusy.davis@gmail.com"
+  },
+  {
+    "gender": "Male",
+    "name": "Kate",
+    "lastName": "Clarc",
+    "age": 43,
+    "email": "kate.clarc@gmail.com"
+  },
+  {
+    "gender": "Female",
+    "name": "Ann",
+    "lastName": "Json",
+    "age": 39,
+    "email": "ann.json@gmail.com"
+  },
+  {
+    "gender": "Male",
+    "name": "Ann",
+    "lastName": "Clarc",
+    "age": 31,
+    "email": "ann.clarc@gmail.com"
+  },
+  {
+    "gender": "Female",
+    "name": "Lusy",
+    "lastName": "Davis",
+    "age": 25,
+    "email": "lusy.davis@gmail.com"
+  },
+  {
+    "gender": "Male",
+    "name": "Lusy",
+    "lastName": "Davis",
+    "age": 54,
+    "email": "lusy.davis@gmail.com"
+  },
+  {
+    "gender": "Female",
+    "name": "Lusy",
+    "lastName": "Underwood",
+    "age": 40,
+    "email": "lusy.underwood@gmail.com"
+  },
+  {
+    "gender": "Female",
+    "name": "Ann",
+    "lastName": "Davis",
+    "age": 59,
+    "email": "ann.davis@gmail.com"
+  },
+  {
+    "gender": "Male",
+    "name": "Lusy",
+    "lastName": "Underwood",
+    "age": 30,
+    "email": "lusy.underwood@gmail.com"
+  },
+  {
+    "gender": "Female",
+    "name": "Ann",
+    "lastName": "Json",
+    "age": 46,
+    "email": "ann.json@gmail.com"
+  },
+  {
+    "gender": "Male",
+    "name": "Zuza",
+    "lastName": "Clarc",
+    "age": 76,
+    "email": "zuza.clarc@gmail.com"
+  },
+  {
+    "gender": "Female",
+    "name": "Kate",
+    "lastName": "Davis",
+    "age": 39,
+    "email": "kate.davis@gmail.com"
+  },
+  {
+    "gender": "Female",
+    "name": "Kate",
+    "lastName": "Davis",
+    "age": 18,
+    "email": "kate.davis@gmail.com"
+  },
+  {
+    "gender": "Male",
+    "name": "Kate",
+    "lastName": "Json",
+    "age": 48,
+    "email": "kate.json@gmail.com"
+  },
+  {
+    "gender": "Male",
+    "name": "Zuza",
+    "lastName": "Json",
+    "age": 65,
+    "email": "zuza.json@gmail.com"
+  },
+  {
+    "gender": "Female",
+    "name": "Lusy",
+    "lastName": "Underwood",
+    "age": 77,
+    "email": "lusy.underwood@gmail.com"
+  },
+  {
+    "gender": "Female",
+    "name": "Zuza",
+    "lastName": "Davis",
+    "age": 39,
+    "email": "zuza.davis@gmail.com"
+  }
+]

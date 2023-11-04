@@ -23,11 +23,9 @@ for (let i = 0; i < 20; i++) {
     const gender = randChoice(genders);
 
     if (gender === 'Male'){
-        const name = randChoice(maleNames);
-        newObject.maleName = name;
+        newObject.name = randChoice(maleNames);
     } else if (gender === 'Female'){
-        const name = randChoice(femaleNames);
-        newObject.femaleName = name;
+        newObject.name = randChoice(femaleNames);
     }  
 
     
@@ -37,14 +35,8 @@ for (let i = 0; i < 20; i++) {
     const age = Math.floor(Math.random() * (78 - 18 + 1)) + 18;
     newObject.age = age;
 
-    if(newObject.femaleName) {
-        const nameToLowerCase = newObject.femaleName.toLowerCase();
-        newObject.email = nameToLowerCase + '.' + lastNameToLowerCase + '@gmail.com';
-    } else {
-        const nameToLowerCase = newObject.maleName.toLowerCase();
-        newObject.email = nameToLowerCase + '.' + lastNameToLowerCase + '@gmail.com';
-    }
-
+    const nameToLowerCase = newObject.name.toLowerCase();
+    newObject.email = nameToLowerCase + '.' + lastNameToLowerCase + '@gmail.com';
 
     people.push(newObject);
 }

@@ -21,15 +21,18 @@ for (let i = 0; i < 20; i++) {
 
     const newObject = {
         gender: randChoice(genders),
-        name: randChoice( this.gender === 'Male' ? maleNames : femaleNames),
-        lastName: randChoice(lastNames),
+        name: '',
+        lastName: '',
         age: Math.floor(Math.random() * (78 - 18 + 1)) + 18,
         email: '',
     }
     
-    const emailName = newObject.name.toLowerCase();
-    const lastName = newObject.lastName.toLowerCase();
-    newObject.email = `${emailName}.${lastName}@gmail.com`;
+    const name = randChoice( newObject.gender === 'Male' ? maleNames : femaleNames)
+    const lastName = randChoice(lastNames);
+
+    newObject.name = name;
+    newObject.lastName = lastName;
+    newObject.email = `${name.toLowerCase()}.${lastName.toLowerCase()}@gmail.com`;
 
     people.push(newObject);
 }

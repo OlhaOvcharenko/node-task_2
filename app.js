@@ -17,24 +17,21 @@ function randChoice(arr){
 const people = [];
 
 for (let i = 0; i < 20; i++) {
-    
 
-    const newObject = {
-        gender: randChoice(genders),
-        name: '',
-        lastName: '',
-        age: Math.floor(Math.random() * (78 - 18 + 1)) + 18,
-        email: '',
-    }
-    
-    const name = randChoice( newObject.gender === 'Male' ? maleNames : femaleNames)
+    const gender = randChoice(genders);
+    const name = randChoice( gender === 'Male' ? maleNames : femaleNames)
     const lastName = randChoice(lastNames);
+    const email =`${name.toLowerCase()}.${lastName.toLowerCase()}@gmail.com`;
 
-    newObject.name = name;
-    newObject.lastName = lastName;
-    newObject.email = `${name.toLowerCase()}.${lastName.toLowerCase()}@gmail.com`;
+    const person = {
+        gender,
+        name,
+        lastName,
+        age: Math.floor(Math.random() * (78 - 18 + 1)) + 18,
+        email,
+    }
 
-    people.push(newObject);
+    people.push(person);
 }
 
 
